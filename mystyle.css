@@ -1,0 +1,208 @@
+li{
+    display:inline-block;
+    margin-right: auto;
+    margin-left: auto;
+    align-items: center;
+    color: rgb(196, 178, 144);
+    padding: 10px;
+}
+.li1{
+    padding-right: 100px;
+}
+a{
+    color:white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ol{
+    color:rgb(196, 178, 144);
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+}
+h1{
+    color:rgb(196, 178, 144);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 60px;
+    text-align: center;
+    
+}
+.li2{
+    padding: 20px;
+    text-align: left;
+}
+
+.img1{
+    width:100%;
+    height: auto;
+}
+img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+ul{
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+   
+
+}
+tr{
+    height: 70px;
+}
+
+table{
+    padding-top: 30px;
+    margin-left: auto;
+    margin-right:auto;
+    max-width: 1000px;
+}
+.td2{
+    text-align: left;
+    color:rgb(196, 178, 144);
+    vertical-align: top;
+    max-width: 250px;
+    font-size: 30px;
+    padding-bottom: 30px;
+}
+td{
+    color: rgb(196, 178, 144);
+    text-align: center;
+    vertical-align: top;
+    max-width: 250px;
+    font-size: 30px;
+    padding-bottom: 30px;
+}
+.li3{
+    border: rgb(196, 178, 144);
+}
+
+h2{
+    color: rgb(196, 178, 144);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align:center;
+    margin-top:70px;
+}
+
+p{
+    color: rgba(255, 255, 255, 0.418);
+    margin-right: auto;
+    margin-left: auto;
+    letter-spacing: .3px;
+    line-height: 1.6;
+    font-size: 1.25rem;
+    margin-bottom: 30px;
+    max-width: 750px;
+    flex-direction: column;
+}
+
+body{
+    height: 100%;
+    max-width: 190%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color:rgb(196, 178, 144)
+}
+
+form{
+    color: white;
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    padding-left: 43%;
+}
+.navbar{
+    overflow: hidden;
+    background-color: #333;
+}
+
+.navbar a{
+    float: left;
+    color:rgb(196, 178, 144);
+    text-align: center;
+    padding: 20px;
+    display: block;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.subnav{
+    float: left;
+    overflow: hidden;
+}
+.subnav .subbutton{
+    border: none;
+    outline: none;
+    color: rgb(196, 178, 144);
+    padding: 20px;
+    background-color: inherit;
+    font-size: 18px;
+    margin: 0;
+}
+
+.sticky{
+    position: fixed;
+    top:0;
+    width:100%;
+}
+
+.navbar a:hover, .subnav:hover .subbutton{
+    background-color: black;
+}
+.subcontent{
+    display: none;
+    position: absolute;
+    left: 0;
+    background-color: black;
+    width: 100%;
+}
+.subcontent a{
+    float:left;
+    color: rgb(196, 178, 144);
+    text-decoration: none;
+}
+
+.subnav:hover .subcontent{
+    display: block;
+}
+
+#main{
+    overflow: auto;
+    padding-bottom: 600px;
+}
+
+script{
+    color:rgb(196, 178, 144);
+}
+
+.collapsible{
+    color:rgb(196, 178, 144);
+    border:none;
+    text-align: left;
+    cursor: pointer;
+    font-size: 20px;
+    
+}
+
+.content2{
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    color:white
+    background-color: black;
+}
+

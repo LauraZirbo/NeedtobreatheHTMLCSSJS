@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <html>
+    <head>
+        <link rel = "stylesheet" href="mystyle.css">
+    </head>
+<body>
+    <div class = "navbar">
+        <a href = "index.html">Home</a>
+        <div class = "subnav">
+            <button class = "subbutton">About Us</button>
+            <div class = "subcontent">
+                <a href = "History.html">Band History</a>
+                <a href = "Members.html">Band Members</a>
+            </div>
+        </div>
+        <a href = "Albums.html">Albums</a>
+        <a href = "Concerts.html">Concerts</a>
+        <a href = "Contact.html">Contact</a>
+</div>
+    <h1>Albums</h1>
+    <ol start = "1">
+        <li><button type = "button" class = "collapsible">INTO THE MISTERY</button><br><img src = "IntoTheMistery.jpg" alt = "Album cover" style="height: 300px;">
+        <div class = "content2">
+            <p>sadfasdfasdfsadfsf
+        </p></div>
+        </li>
+        <li>OUT OF BODY<br> <img src= "OutOfBody.jpg" alt = "Album cover"style="height:300px;"></li>
+        <li>HARD LOVE<br><img src = "HardLove.jpg" alt = "Album cover"style = "height=300px;"></li>
+        <li>RIVERS IN THE WASTELAND<br><img src = "RiversInTheWasteland.jpg" alt =" Album cover" style = "height: 300px;"></li>
+        <li>THE RECKONING<br><img src = "TheReckoning.jpg" alt = "Album cover" style="height: 300px;"></li>
+        <li>THE OUTSIDERS<br><img src = "theOutsiders.jpg" alt = "Album cover" style ="height: 300px;"></li>
+        <li>THE HEAT <br><img src = "theHeat.jfif" alt = "Album cover" style = "height: 300px;"></li>
+        <li>DAYLIGHT <br><img src = "Daylight.jpg" alt = "Album cover" style = "height: 300px;"></li>
+    
+    </ol>
+    <footer>
+        <ul>
+            <li>
+                <a href = "https://www.facebook.com/NEEDTOBREATHE" target="_blank" rel = "noopener"> 
+                    <img src="124010.png" style="width:30px;height:30px;">
+                </a>
+            </li>
+            <li>
+                <a href = "https://www.instagram.com/needtobreathe/" target="_blank" rel = "noopener"> 
+                    <img src="instagram-1675670_960_720.png" style="width:30px;height:30px;">
+                </a>
+            </li>
+            <li><a = href = "https://music.apple.com/us/artist/needtobreathe/113247214" target="_blank" rel = "noopener"><img src = "apple.png" style = "height: 50px;"></a></li>
+            <li><a = href = "https://www.deezer.com/ro/artist/64337/top_track" target="_blank" rel = "noopener"><img src = "deezer.png" style = "height: 30px;"></a></li>
+            <li><a = href = "[17:17, 11/09/2021] Laura: mersi
+                [17:19, 11/09/2021] Adina: https://open.spotify.com/artist/610EjgFatGvVPtib97jQ8G?si=Rr_-n1G4RRy7rEKLjWztAw&utm_source=copy-link&dl_branch=1" target="_blank" rel = "noopener"><img src = "spotify.png" style = "height: 30px;"></a></li>
+            <li><a = href = "https://music.youtube.com/channel/UCTaNWgGSQrToqVYUadQXXXw" target="_blank" rel = "noopener"><img src = "youtube.jfif" style = "height: 30px;"></a></li>
+        </ul>
+    
+    </footer>  
+
+<script>
+    let coll = document.getElementsByClassName("collapsible");
+    let i;
+    for(i = 0; i<coll.length;i++)
+    {
+        coll[i].addEventListener("click",function() =>{
+            const content2 = this.nextElementSibling;
+            this[i].classList.toggle("active");
+            if(content2.style.display == "block")
+            {
+                content2.style.display = "none"
+            }
+            else
+            {
+                content2.style.display = "block";
+            }
+        });
+    }
+    
+</script>
+</body>
+</html>

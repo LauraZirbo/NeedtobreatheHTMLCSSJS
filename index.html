@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel = "stylesheet" href="mystyle.css">
+    </head>
+
+<style>
+    body{
+        background-image: url("homepage.jfif");
+    }
+</style>
+<body>
+    <div class = "navbar">
+            <a href = "index.html">Home</a>
+            <div class = "subnav">
+                <button class = "subbutton">About Us</button>
+                <div class = "subcontent">
+                    <a href = "History.html">Band History</a>
+                    <a href = "Members.html">Band Members</a>
+                </div>
+            </div>
+            <a href = "Albums.html">Albums</a>
+            <a href = "Concerts.html">Concerts</a>
+            <a href = "Contact.html">Contact</a>
+    </div>
+    <div id = "main">
+        <h1>NEEDTOBREATHE</h1>
+    </div>
+<footer>
+    <ul>
+        <li>
+            <a href = "https://www.facebook.com/NEEDTOBREATHE" target="_blank" rel = "noopener"> 
+                <img src="124010.png" style="width:30px;height:30px;">
+            </a>
+        </li>
+        <li>
+            <a href = "https://www.instagram.com/needtobreathe/" target="_blank" rel = "noopener"> 
+                <img src="instagram-1675670_960_720.png" style="width:30px;height:30px;">
+            </a>
+        </li>
+    </ul>
+
+</footer>    
+<script>
+    window.onscroll = function(){makeSticky()};
+    var navbar = document.getElementById("navbar");
+    var sticky = navbar.offsetTop
+
+    function makeSticky(){
+        if(pageXOffset >= sticky){
+            navbar.classList.add("sticky")
+        }
+        else{
+            navbar.classList.remove("sticky");
+        }
+    }
+</script>
+
+</body>
+</html>
